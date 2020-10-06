@@ -271,22 +271,22 @@ body {
                         
                         @media screen and (min-width: 768px) and (max-width: 1024px) {
                              .grid-container {
-                                grid-template-columns: 1fr;
+                                grid-template-columns: 1fr 1fr;
                             }
                           
                             .cards-container {
-                                grid-template-columns: 1fr;
+                                grid-template-columns: 1fr 1fr;
                             }
                         }
                         /* Tablets, iPads (portrait) ---------- */
                         
                         @media screen and (min-width: 768px) {
                              .grid-container {
-                                grid-template-columns: 1fr 1fr;
+                                grid-template-columns: 1fr;
                             }
                            
                             .cards-container {
-                                grid-template-columns: 1fr 1fr;
+                                grid-template-columns: 1fr;
                             }
                         }
                         /* Tablets, iPads (landscape) ---------- */
