@@ -146,7 +146,7 @@ body {
 
                         .card{
                             display: grid;
-                            grid-template-columns: 1.5rem 12rem auto ;
+                            grid-template-columns: auto auto auto ;
                           /*  grid-template-rows: 2rem 5.5rem 3.5rem 2.3rem;*/
                             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
                             transition: 0.3s;
@@ -271,22 +271,22 @@ body {
                         
                         @media screen and (min-width: 768px) and (max-width: 1024px) {
                              .grid-container {
-                                grid-template-columns: 1fr 1fr;
+                                grid-template-columns: 1fr ;
                             }
                           
                             .cards-container {
-                                grid-template-columns: 1fr 1fr;
+                                grid-template-columns: 1fr ;
                             }
                         }
                         /* Tablets, iPads (portrait) ---------- */
                         
                         @media screen and (min-width: 768px) {
                              .grid-container {
-                                grid-template-columns: 1fr;
+                                grid-template-columns: 1fr ;
                             }
                            
                             .cards-container {
-                                grid-template-columns: 1fr;
+                                grid-template-columns: 1fr ;
                             }
                         }
                         /* Tablets, iPads (landscape) ---------- */
